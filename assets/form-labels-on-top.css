@@ -1,0 +1,109 @@
+html{
+    background-color: #f3f3f3;
+}
+
+.form-labels-on-top{
+    box-sizing: border-box;
+    max-width: 475px;
+    margin: 0 auto;
+    padding: 55px;
+
+    background-color:  #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.form-labels-on-top .form-row{
+    text-align: left;
+    max-width: 315px;
+    margin: 25px auto 0;
+}
+
+.form-labels-on-top .form-title-row{
+    margin: 0 auto 40px;
+}
+
+.form-labels-on-top h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #4C565E;
+    font-size: 24px;
+    padding: 0 0 12px 0;
+    margin: 0;
+    border-bottom: 2px solid #6CAEE0;
+}
+
+.form-labels-on-top .form-row > label span{
+    display: block;
+    box-sizing: border-box;
+    color:  #5f5f5f;
+    width: 200px;
+    padding: 0 0 12px;
+}
+
+.form-labels-on-top input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 300px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-labels-on-top input[type=radio],
+.form-labels-on-top input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+}
+
+.form-labels-on-top select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-labels-on-top .form-radio-buttons > div{
+    margin-bottom: 10px;
+}
+
+.form-labels-on-top .form-radio-buttons label span{
+    margin-left: 8px;
+    color:  #5f5f5f;
+    font-weight: normal;
+}
+
+.form-labels-on-top .form-radio-buttons input{
+    width: auto;
+}
+
+.form-labels-on-top button{
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin-top: 15px;
+}
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+@media (max-width: 600px) {
+
+    .form-labels-on-top{
+        padding: 30px;
+    }
+
+    .form-labels-on-top input{
+        width: 240px;
+    }
+
+}
